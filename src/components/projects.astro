@@ -1,9 +1,9 @@
 ---
 import { Image } from "astro:assets";
-import svgl from "../../public/maza.webp";
-import stockin from "../../public/restaura.webp";
+import svgl from "../../public/gaviana.png";
+import stockin from "../../public/proyecta.png";
 import bellaterra from "../../public/bellaterra.webp"
-import oferta from "../../public/oferts.webp"
+import oferta from "../../public/coordenada.png"
 
 interface Project {
   title: string;
@@ -15,32 +15,32 @@ interface Project {
 
 const projects: Project[] = [
   {
-    title: "Restaura",
+    title: "Proyecta Igniting Marketing",
     image: stockin as ImageMetadata,
-    link: "https://github.com/Diegoweh/restaurantViteReact",
-    preview: "https://unrivaled-pithivier-efb1b4.netlify.app/",
-    status: "Vite - React - Tailwind",
+    link: "https://github.com/Diegoweh/Proyecta",
+    preview: "https://proyecta-five.vercel.app/",
+    status: "Marketing Agency ( React - NextJs - TailwindCSS - Framer Motion - GSAP )",
   },
   {
-    title: "Mazalife",
+    title: "Gaviana Resort",
     image: svgl as ImageMetadata,
-    link: "https://github.com/Diegoweh/mazaLife",
-    preview: "https://mazalife.com.mx/",
-    status: "Html - Css - Js - Bootstrap - Wordpress",
+    link: "https://github.com/Diegoweh/gaviana-resort",
+    preview: "https://gaviana-resort.vercel.app/",
+    status: "Gaviana Resort ( React - NextJs - TailwindCSS - Framer Motion )",
   },
   {
     title: "Bellaterra",
     image: bellaterra as ImageMetadata,
-    link: "https://bellaterrajoyas.com/",
-    preview: "https://bellaterrajoyas.com/",
-    status: "Shopify ( Contributor )",
+    link: "https://bellaterrashop.com.mx/",
+    preview: "https://bellaterrashop.com.mx/",
+    status: "Shopify ( Shopify - Liquid - Html - Css - Js )",
   },
   {
-    title: "Tourist Landing Page ( Mazatlán )",
+    title: "Coordenada Móvil",
     image: oferta as ImageMetadata,
     link: "https://github.com/Diegoweh/ofertasMzt",
     preview: "https://ofertasmazatlan.proyecta.com.mx/",
-    status: "Html - Css - Js - Bootstrap",
+    status: "Products Web Site ( React - NextJs - TailwindCSS - Framer Motion )",
   },
   
 ];
