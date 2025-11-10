@@ -22,10 +22,10 @@ const SkillsList = () => {
       'Integration with APIs and third-party services',
       'Performance optimization and best practices',
     ],
-    'Mobile Development': [
-      'Mobile-friendly web apps',
-      'React Native mobile apps'
-    ],
+    // 'Mobile Development': [
+    //   'Mobile-friendly web apps',
+    //   'React Native mobile apps'
+    // ],
     'UI/UX Design & Styling': [
       'Tailwind CSS for responsive design',
       'shadcn/ui component library',
